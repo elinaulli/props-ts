@@ -34,4 +34,5 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'Deploy to GitHub Pages'
-          force_orphan: true  # Создает чистую ветку gh-pages
+          force_orphan: true 
+          enable_jekyll: false
